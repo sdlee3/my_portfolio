@@ -1,0 +1,147 @@
+
+.body-dark{
+    background-color: #3A4D39;
+}
+
+.body-light{
+    background-color: #ECE3CE;
+}
+
+#header-section {
+    background-color: #3A4D39;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#title-name { 
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    color: #ECE3CE;
+}
+
+/* #summary {
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+.summary-desc-container{
+    align-self: center;
+    
+}
+
+#summary-desc{
+    font-family: 'Open Sans', sans-serif;
+    color: #739072;
+    font-size: 35px;
+}
+
+#summary-sub-desc{
+    font-family: 'Open Sans', sans-serif;
+    color: #739072;
+    font-size: 28px;
+}
+
+.hr{
+    margin: 0;
+}
+
+#section{
+    background-color: #739072;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    /* margin-top: 10px; */
+}
+
+.h3-title {
+    /* font-size: 18px; */
+    color: #4F6F52
+}
+
+.content-description-list{
+    color: #ECE3CE;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #3A4D39;
+    color: #ECE3CE;
+    text-align: center;
+    clear: both;
+    margin-top: 10px;
+}
+
+
+.h4-title{
+    color: #3A4D39;
+    font-size: 35px;
+    text-align: center;
+}
+
+.a-link {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.hyperlink{
+    color: #ECE3CE;
+    font-size: 18px;
+}
+
+/* contact */
+.contact-h2{
+    color: #739072;
+}
+
+.contact-div{
+    padding-top: 80px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+.contact-paragraph{
+    color: #ECE3CE;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* hobbies */
+
+.bg-red{
+    background-color: red;
+}
+
+.hobbies-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    grid-gap: 20px;
+    margin-top: 80px;
+    
+    /* place-items: center; */
+    
+}
+
+.row2-item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.row2-item2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+
+.hobbies-img{
+    width: 200px;
+    height: 250px;
+   
+}
+
+
+
